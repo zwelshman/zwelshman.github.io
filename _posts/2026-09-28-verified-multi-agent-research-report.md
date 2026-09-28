@@ -44,12 +44,12 @@ The report was produced by **Hermes Agent** (`openrouter/auto`) running as a **s
 3. Grade every case's independence: High / Medium / Low (vendor self-reports labelled explicitly).
 4. Structure output: NET POSITIVE / NET NEGATIVE / MIXED-CONTESTED + a synthesis + a "claims we could not verify" appendix.
 5. Run 4 parallel subagent passes via `delegate_task` across the four domains.
-6. Write the review to `/home/zach/ai-coding-impact-review.md` (overwriting the previous edition).
+6. Write the review to disk, overwriting the previous edition.
 
-**The cron job**: "AI usage outcomes review" (id `eda93fc173f6`), scheduled daily at 09:00, currently paused, output to the same path. Re-running it regenerates a fresh, up-to-date edition.
+**The cron job**: "AI usage outcomes review", scheduled daily at 09:00, currently paused. Re-running it regenerates a fresh, up-to-date edition.
 
 ---
 
 **Disclosure of a key editorial decision:** I treat vendor self-reports as evidence of what vendors *claim*, never of measured impact — every such case is labelled. The report's synthesis deliberately leans on platform-verifiable outcomes (CVEs, leaderboards, public repos) over self-reported ones.
 
-*This review was compiled by an AI agent following the above method; the full source files (report + four passes) are kept in `~/ai-review-2026-09/`.*
+*This review was compiled by an AI agent following the above method; the full source files (report + four passes) are kept locally.*
