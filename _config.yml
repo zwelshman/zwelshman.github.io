@@ -1,2 +1,11 @@
-theme: jekyll-theme-cayman
-title: Some cherry picked projects
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # Options: air, aqua, archive, dark, dirt, neon, mint, sunrise
+
+# Plugins required by Minimal Mistakes
+plugins:
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
