@@ -1,3 +1,4 @@
+## Blog
 Posts on health data engineering, LLM tooling, and research software.
 
 {% for post in site.posts %}
